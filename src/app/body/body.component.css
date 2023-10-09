@@ -1,0 +1,40 @@
+.banner{
+    height: 708px;
+    flex-shrink: 0;
+    background-color: #F4EFEB;
+    display: flex;
+    justify-content: flex-end; /* Alinha o conteúdo à direita da div */
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+   }
+  
+   .bannertxt{
+  
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /*gap: 52px;*/
+   }
+  
+  .titulo{
+    color: #7A2D19;
+  font-family: DM Sans;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 96px; /* 100% */
+  letter-spacing: -1.92px;
+  
+  }
+  
+  .desc{
+    color: #490303;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 40px ;
+  width: 549px;
+  height: 49px;
+  } 

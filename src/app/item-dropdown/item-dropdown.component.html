@@ -1,0 +1,43 @@
+<div class="dropdown">
+  <h1 class="desc" style="font-size: 19px; padding-top: 60px; margin: 0 auto">
+    Vinil
+  </h1>
+  <h1
+    class="desc"
+    style="
+      font-size: 19px;
+      font-weight: bold;
+      padding-bottom: 60px;
+      margin: 0 auto;
+    "
+  >
+    Escolha o álbum e o modelo!
+  </h1>
+
+  <div class="selects">
+    <select [(ngModel)]="select1" (change)="onChange()">
+      <option *ngFor="let a of albuns" [value]="a.id">
+        {{ a.nome }}
+      </option>
+    </select>
+    <select
+      [(ngModel)]="select2"
+      class="rounded-inputs20 select-select col-md-3"
+    >
+      <option *ngFor="let m of modelos" [value]="m">
+        {{ m }}
+      </option>
+    </select>
+  </div>
+  <button  (click)="clickButton()">
+    <h1>OK</h1>
+  </button>
+  <h1
+    class="desc"
+    style="padding-bottom: 0px; padding-top: 60px; margin: 0 auto"
+  >
+    Álbum: {{ album }}
+  </h1>
+  <h1 class="desc" style="margin: 0 auto">Modelo escolhido: {{ modelo }}</h1>
+</div> 
+

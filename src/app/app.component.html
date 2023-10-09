@@ -1,0 +1,21 @@
+<app-header> </app-header>
+
+<app-body></app-body>
+
+<app-catalog></app-catalog>
+
+
+<button mat-button [matMenuTriggerFor]="menu">
+   <h1>selecione a página</h1>  </button>
+<mat-menu #menu="matMenu">
+    <button mat-menu-item routerLink="/itemdropdown" routerLinkActive="active">Vinil</button>
+    <button mat-menu-item routerLink="/itemdropdowncd" routerLinkActive="active">CD</button>
+    <button mat-menu-item routerLink="/about" routerLinkActive="active">Sobre nós</button>
+    <button mat-menu-item routerLink="/contato" routerLinkActive="active">Contato</button>
+    <button mat-menu-item routerLink="/" routerLinkActive="active">Inicio</button>
+</mat-menu>
+
+
+<router-outlet></router-outlet>
+
+

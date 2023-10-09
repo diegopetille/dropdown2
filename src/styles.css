@@ -1,0 +1,145 @@
+/* Global Styles */
+h1 {
+    color: rgb(37, 27, 126);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 170%;
+  }
+  h2,
+  h3 {
+    color: rgb(16, 5, 82);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 130%;
+  }
+
+ /* body,
+  input[text],
+  button {
+    color: rgb(44, 9, 9);
+    font-family: Cambria, Georgia;
+    font-size: 90%;
+  }
+  
+  button {
+    font-family: Arial;
+    background-color: rgb(116, 173, 230);
+    border: none;
+    padding: 4px 6px;
+    border-radius: 6px;
+  }
+  button:hover {
+    background-color: #cfd8dc;
+  }
+  button:disabled {
+    background-color: #eee;
+    color: #aaa;
+    cursor: auto;
+  }*/
+  
+  /* Navigation link styles */
+  nav a {
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #eee;
+    border-radius: 4px;
+  }
+  nav a:visited,
+  a:link {
+    color: #607d8b;
+  }
+  nav a:hover {
+    color: #039be5;
+    background-color: #cfd8dc;
+  }
+  nav a.active {
+    color: #039be5;
+  }
+  
+  /* everywhere else */
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+ .header{
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+ }
+
+ .menu{
+  display: flex;
+  align-items: center;
+  gap: 32px;
+ }
+
+ .menutxt{
+  color: #B16653;
+text-align: center;
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 16px; /* 100% */
+ }
+
+ .icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  margin-left: 42px
+ }
+
+ .logo{
+  display: flex;
+  gap: 32px;
+ }
+
+ a{
+  cursor: pointer;
+  text-decoration: none;
+ }
+
+
+
+button{
+  display: flex;
+width: 192px;
+padding: 5px 20px;
+justify-content: center;
+align-items: center;
+gap: 12px;
+border-radius: 90px;
+background: #7A2D19;
+border: none;
+margin: 0 auto;
+
+}
+
+button:hover{
+  background-color: #953f29;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition: 200ms;
+}
+
+button h1{
+color: #FCFCFD;
+text-align: center;
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 100;
+line-height: 16px; /* 80% */
+padding-top: 20px
+}
+  
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
